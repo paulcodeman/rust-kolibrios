@@ -1,0 +1,13 @@
+[package]
+name = "rust_kos"
+version = "0.1.0"
+authors = ["Hayato Ohhashi <o8@vmm.dev>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+opt-level = "z"
+
+[dependencies]
+rlibc = "1.0.0"
