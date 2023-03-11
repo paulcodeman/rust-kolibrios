@@ -4,7 +4,7 @@
 ## Установка Rust и Cargo
 Для начала необходимо установить Rust и Cargo. Чтобы установить их, выполните следующие команды в терминале Ubuntu:
 
-```
+```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 ```
@@ -13,7 +13,7 @@ source $HOME/.cargo/env
 ## Компиляция программы на Rust
 Для компиляции программы на Rust для KolibriOS используйте следующие команды в терминале:
 
-```
+```bash
 cargo build --release
 cargo objcopy --release -- -O binary --binary-architecture=i386:x86 rust.kex
 ```
