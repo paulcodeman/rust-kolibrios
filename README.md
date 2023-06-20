@@ -23,3 +23,8 @@ cargo objcopy --release -- -O binary --binary-architecture=i386:x86 rust.kex
 Полученный файл rust.kex можно запустить на KolibriOS. Чтобы это сделать, перенесите файл на KolibriOS и запустите его.
 
 Это все, вы готовы компилировать программы на Rust для KolibriOS!
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=paulcodeman/rust-kolibrios&type=Date)](https://star-history.com/#paulcodeman/rust-kolibrios&Date)
+
