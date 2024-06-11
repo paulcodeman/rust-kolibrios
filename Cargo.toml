@@ -1,0 +1,23 @@
+[package]
+name = "kos"
+version = "0.1.0"
+authors = ["Kitsu <mail@kitsu.me>", "Sweetbread"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[example]]
+name = "hwa"
+path = "examples/hwa.rs"
+
+[[example]]
+name = "con"
+path = "examples/con.rs"
+
+[[example]]
+name = "dark"
+path = "examples/dark.rs"
+
+[profile.release]
+opt-level = "z"
+lto = "thin"
