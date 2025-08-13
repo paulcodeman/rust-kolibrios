@@ -91,37 +91,3 @@ This project is licensed under the [MIT License](LICENSE). See the LICENSE file 
 ## Support
 
 If you encounter issues or have questions, feel free to open an issue on the [GitHub Issues page](https://github.com/paulcodeman/rust-kolibrios/issues). You can also reach out to the community via [KolibriOS forums](https://board.kolibrios.org/) or check the [Rust community](https://www.rust-lang.org/community) for additional support.
-
----
-
-### Key Improvements Made
-
-1. **Introduction Section**: Added a brief description of the project and its purpose to give context and attract users unfamiliar with KolibriOS or the library.
-
-2. **Features Section**: Included a bullet-point list of key features to highlight the library's value proposition.
-
-3. **Improved Prerequisites**: Organized the prerequisites into a clear list with installation commands and links to external tools for clarity.
-
-4. **Enhanced Build Instructions**: Clarified the build process and provided an example command with a placeholder (`<example_name>`).
-
-5. **Added Examples Section**: Introduced a dedicated section to guide users on exploring and building example applications.
-
-6. **Getting Started Guide**: Added a step-by-step guide to help new users clone, set up, and run the project.
-
-7. **Contributing Section**: Included a basic contributing guide to encourage community participation and linked to a (potentially future) `CONTRIBUTING.md` file.
-
-8. **License Section**: Added a license section to clarify the project’s licensing terms (assuming MIT, but you can adjust if needed).
-
-9. **Support Section**: Provided guidance on where to seek help, including GitHub issues and community resources.
-
-10. **Formatting and Readability**: Used consistent markdown formatting (e.g., headers, code blocks, and links) to improve readability and navigation.
-
-### Next Steps
-
-- **Create a `CONTRIBUTING.md` File**: If it doesn’t exist, create one with detailed contribution guidelines (e.g., coding standards, testing requirements).
-- **Add Example Details**: If possible, list specific example names in the README or provide a brief description of what each example does.
-- **Include Screenshots or Demos**: If applicable, add screenshots or GIFs of the examples running on KolibriOS to make the README more engaging.
-- **Add CI/CD Badges**: If you have automated builds or tests (e.g., GitHub Actions), add badges to show build status.
-- **Specify KolibriOS Setup**: If specific KolibriOS versions or configurations are required, mention them in the README.
-
-If you have specific details (e.g., example names, license type, or additional features) you’d like to include, let me know, and I can tailor the README further!
