@@ -9,10 +9,10 @@ extern "C" {
 static mut BUFFER: [u8; 1000] = [0u8; 1000];
 
 pub struct Console {
-    con_init: extern "stdcall" fn(u32, u32, u32, u32, *const u8),
-    con_gets: extern "stdcall" fn(*const u8, u32),
-    con_write_string: extern "stdcall" fn(*const u8, u32),
-    con_exit: extern "stdcall" fn(bool),
+    con_init: extern "system" fn(u32, u32, u32, u32, *const u8),
+    con_gets: extern "system" fn(*const u8, u32),
+    con_write_string: extern "system" fn(*const u8, u32),
+    con_exit: extern "system" fn(bool),
 }
 
 impl Console {
